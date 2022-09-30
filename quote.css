@@ -1,0 +1,7 @@
+.quote{
+    grid-row: 3/span 2;
+    grid-column: 1/span 9;
+
+    border-top: var(--border-thin);
+    border-bottom: var(--border-thin);
+}

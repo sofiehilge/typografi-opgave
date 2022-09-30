@@ -1,0 +1,4 @@
+.link-list{
+    grid-row: 5/span 4;
+    grid-column: 8/span 1;
+}

@@ -1,0 +1,11 @@
+.time{
+    grid-row: 2/span 1;
+    grid-column: 5/span 1;
+
+    writing-mode: vertical-rl;
+    font-size: 2em;
+    font-family: var(--base-font);
+
+    border-left: var(--border-thin);
+    border-right: var(--border-thin)
+}
