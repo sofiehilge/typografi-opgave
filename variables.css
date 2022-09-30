@@ -1,0 +1,15 @@
+/* variabler, xy-variabler. font-typer og farver kan defineres her. og kaldes de steder de skal bruges.
+Variabler muliggøre det at man kan ændre farven samme sted, for hele siden. */
+
+/* elementer du skal genbruge, der giver det mening at lave en variable. eg. border.  */
+
+:root{
+    --base-color: rgba(52, 107, 108, 0.474);/* tom fordi vi ikke har værdi for farver endnu */
+    --base-gradient:  rgba(155, 140, 105, 0.3);
+    --cirkel-color: rgb(165, 228, 230);/* en farve der popper lidt ud */
+
+    --base-font: 'Cormorant', serif;/* font type */
+    --accent-font: 'Dancing Script', cursive;/* font type */
+
+    --border-thin: thin solid var(--base-color);
+}

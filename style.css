@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+@import url('variables.css');
+@import url('base.css');
+@import url('layout.css');
+
+@import url('adress.css');
+@import url('email.css');
+@import url('event.css');
+@import url('left.css');
+@import url('location.css');
+@import url('module.css');
+@import url('quote.css');
+@import url('right.css');
+@import url('time.css');
+/* indholdsfortegnelsen i en rapport */
+
+/* for hver menu eller gallery du har laver du dens egen css fil. */

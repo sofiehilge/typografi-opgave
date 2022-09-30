@@ -1,0 +1,40 @@
+/* primære design regler såsom typografi, basis */
+
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+/* ex background-color: var(--base-color); */
+
+.header{
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 1em;
+}
+
+.event{
+    background-color: green;
+}
+
+.left{
+    background-color: yellow;
+}
+
+.right{
+    background-color: brown;
+}
+
+.quote{
+    background-color: blueviolet;
+}
+
+.module{
+    background-color: grey;
+}
+
+.time{
+    background-color: pink;
+}
