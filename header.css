@@ -1,0 +1,8 @@
+.header{
+    font-size: 8em;
+    font-weight: 200;
+    
+    border-bottom: thick double var(--color-dark);
+}
+
+
