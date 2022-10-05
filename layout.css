@@ -1,33 +1,37 @@
 /* kompositionen af siden, dit grid, hvor skal headeren være etc. Din wireframe. layout dvs. hvide og brede på enkelte elementer */
 /* nyt tip skifter du mellem 100 width og 70% width så lave en class til hver. dine html elementer kan godt have flere class det skrives bare med et mellemrum i mellem eg: wrapper width 100 */
 
-body{
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     gap: 3rem;
+
+    text-align: center;
 }
 
-header{
+header {
     width: 70%;
     margin: 0 auto;
 }
 
-.wrapper{
+main {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
+    /* grid: auto / repeat(9, 1fr) */
 
+    /* width; 100% */
     width: 80%;
     padding: 1em;
     margin: 0 auto;
-
-    border-top: thick double var(--color-dark);
-    border-bottom: var(--border-thin);
-
 }
 
-section{
+/* giv cirkel en grid!! */
+
+/* @media screen and (min-width: 700px) {
+    main{min width 80px} */
+section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,44 +39,10 @@ section{
     text-align: center;
 }
 
-h1{
-    font-family: var(--base-font);
-    font-weight: bold;
-    text-transform: uppercase;
+/* alle grid-row skal ind her!!! */
 
-    font-size: 4rem;
+.footer {
+
+    display: flex;
+    justify-content: space-between;
 }
-
-h2{
-    font-family: var(--base-font);
-    font-weight: bold;
-    text-transform: uppercase;
-
-    font-size: 2rem;
-}
-
-h3 li{
-    font-family: var(--base-font);
-    text-transform: uppercase;
-
-    font-size: 2rem;
-}
-
-h4{
-    font-family: var(--accent-font);
-    font-size: 1rem;
-}
-
-h5{
-    font-family: var(--accent-font);
-    font-weight: bold;
-    font-size: 1rem; 
-}
-
-h6{
-    font-family: var(--base-font);
-    font-weight: bold;
-
-    font-size: 1rem;  
-}
-

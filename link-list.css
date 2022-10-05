@@ -1,4 +1,15 @@
-.link-list{
+.link-list {
     grid-row: 5/span 4;
-    grid-column: 8/span 1;
+    grid-column: 8/span 2;
 }
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: var(--circle-color)
+}
+

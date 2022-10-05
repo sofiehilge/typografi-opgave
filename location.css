@@ -1,4 +1,7 @@
 .location{
     grid-row: 1/span 2;
     grid-column: 1/span 4;
+
+    margin-left: 2em;
+    margin-right: 2em
 }
