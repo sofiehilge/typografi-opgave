@@ -14,9 +14,8 @@ body{
     font-family: var(--base-font);
     text-transform: uppercase;
 
-    /* paddint-top:2em */
-    /* padding-bottom:2em */
-    
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 
@@ -36,7 +35,7 @@ h3 li {
 
 h4 {
     font-family: var(--accent-font);
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-weight: 200;
 }
 
@@ -58,43 +57,5 @@ h6 {
 
 .list {
     list-style: none;
+    font-size: 1.3em;
 }
-
-
-
-
-/* 
-.event{
-    background-color: green;
-}
-
-.subject-list{
-    background-color: yellow;
-}
-
-.link-list{
-    background-color: brown;
-}
-
-.quote{
-    background-color: blueviolet;
-}
-
-.date{
-    background-color: grey;
-}
-
-.time{
-    background-color: pink;
-}
-
-.location{
-    background-color: aquamarine;
-}
-
-.adress{
-    background-color: purple;
-}
-.email{
-    background-color: lightgreen;
-} */

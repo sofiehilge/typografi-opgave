@@ -23,7 +23,7 @@
     font-size: 4em;
 }
 
-.stock{
+#stock{
     display: flex;
     flex-direction: column;
     align-items: center;
